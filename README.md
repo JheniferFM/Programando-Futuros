@@ -1,4 +1,3 @@
-Aqui está um exemplo de **README** para o seu repositório do GitHub, baseado no projeto "Programando Futuros":
 
 ---
 
@@ -95,10 +94,7 @@ O objetivo principal do projeto é desenvolver uma plataforma funcional que prom
    ```
 5. Crie um **pull request** explicando suas alterações.
 
-## 📄 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
-Com isso, o README fornece uma visão geral do projeto, das tecnologias utilizadas, como rodar localmente e como contribuir. Caso queira fazer alguma modificação ou incluir mais informações, é só me avisar!
