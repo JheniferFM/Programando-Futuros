@@ -1,4 +1,3 @@
-Claro! Aqui está o **README completo** do seu projeto **Programando Futuros**, com tudo organizado, limpo e sem `*` ou `#`, pronto para usar no GitHub:
 
 ---
 
@@ -159,10 +158,8 @@ git push origin minha-feature
 
 5. Abra um pull request explicando suas alterações
 
-Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 ---
 
-Se quiser, posso salvar esse conteúdo como um arquivo `README.md` pronto pra você subir pro repositório. Deseja isso?
+
