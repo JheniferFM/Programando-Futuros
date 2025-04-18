@@ -1,192 +1,168 @@
-Claro! Aqui está o **README.md completo** do projeto **Programando Futuros**, com todas as seções integradas e organizadas, pronto para ser usado no seu repositório GitHub:
+Claro! Aqui está o **README completo** do seu projeto **Programando Futuros**, com tudo organizado, limpo e sem `*` ou `#`, pronto para usar no GitHub:
 
 ---
 
-```markdown
-# 🌱 Programando Futuros
+Programando Futuros
 
-**Programando Futuros** é uma plataforma web de gestão para ações de turismo voluntário com foco em educação tecnológica em escolas públicas da Asa Norte – DF. O projeto visa conectar alunos universitários voluntários a escolas públicas, facilitando a organização de oficinas e turmas, além de oferecer recursos para o aprendizado contínuo dos alunos.
+Programando Futuros é uma plataforma web de gestão para ações de turismo voluntário com foco em educação tecnológica em escolas públicas da Asa Norte – DF. O projeto visa conectar alunos universitários voluntários a escolas públicas, facilitando a organização de oficinas e turmas, além de oferecer recursos para o aprendizado contínuo dos alunos.
 
----
+Funcionalidades
 
-## 🚀 Funcionalidades
+- Cadastro de voluntários com informações pessoais e disponibilidade
+- Cadastro de escolas públicas interessadas em oficinas de tecnologia
+- Gerenciamento de oficinas, turmas e horários
+- Feedbacks e avaliações pós-oficinas
+- Publicação e organização de materiais pedagógicos
+- Painel administrativo com indicadores e relatórios
+- Área exclusiva para alunos acessarem conteúdos e quizzes
 
-- **Cadastro de voluntários:** Permite aos alunos do UniCEUB se registrarem como voluntários e se inscreverem para ações de voluntariado.
-- **Cadastro de escolas públicas:** As escolas podem se cadastrar para receber oficinas de educação tecnológica.
-- **Gerenciamento de oficinas:** Criação e agendamento de oficinas e turmas.
-- **Feedback e avaliações:** Coleta de feedbacks dos participantes para melhoria contínua das ações.
-- **Materiais de apoio:** Voluntários podem postar materiais como apostilas, vídeos e links úteis para ajudar no aprendizado dos alunos.
-- **Painel administrativo:** Visualização de estatísticas e relatórios sobre o impacto das ações realizadas.
-- **Ambiente do aluno:** Acesso restrito a materiais didáticos e quizzes educativos.
+Tecnologias Utilizadas
 
----
-
-## 💻 Tecnologias Utilizadas
-
-### Frontend:
+Frontend:
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript ES6+
 - React (ou JavaScript puro)
 
-### Backend:
+Backend:
 - Node.js com Express.js
 - Firebase (opcional)
 
-### Banco de Dados:
+Banco de Dados:
 - Firebase Realtime Database
 - MongoDB ou MySQL
 
-### Hospedagem:
-- GitHub Pages (para MVP)
-- Vercel (produção)
+Hospedagem:
+- GitHub Pages (versão MVP)
+- Vercel (versão de produção)
 
-### Versionamento:
-- Git + GitHub
+Versionamento:
+- Git e GitHub
 
-### Design e Prototipação:
+Design e Prototipação:
 - Figma
 
----
+Objetivo
 
-## 🎯 Objetivo
+Desenvolver uma plataforma funcional que promova o voluntariado universitário voltado à educação tecnológica em escolas públicas, facilitando a gestão das ações realizadas e promovendo um ambiente mais acessível e organizado para todos os envolvidos.
 
-O objetivo principal do projeto é desenvolver uma plataforma funcional que promova o voluntariado universitário voltado à educação tecnológica em escolas públicas, além de facilitar a gestão das ações realizadas, proporcionando um ambiente mais organizado e acessível para todos os envolvidos.
+Como Rodar o Projeto Localmente
 
----
+1. Clone o repositório:
+```
+git clone https://github.com/SEU-USUARIO/programando-futuros.git
+```
 
-## 📦 Como Rodar o Projeto Localmente
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/programando-futuros.git
-   ```
-
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd programando-futuros
-   ```
+2. Acesse o diretório do projeto:
+```
+cd programando-futuros
+```
 
 3. Instale as dependências:
-   ```bash
-   npm install
-   ```
+```
+npm install
+```
 
 4. Execute o projeto localmente:
-   ```bash
-   npm start
-   ```
+```
+npm start
+```
 
-5. Abra o navegador e acesse:
-   ```bash
-   http://localhost:3000
-   ```
+5. Acesse no navegador:
+```
+http://localhost:3000
+```
 
----
+Desenvolvimento
 
-## 🏗️ Arquitetura da Solução
+- Metodologia: Scrum, com sprints semanais e reuniões para acompanhamento
+- Prototipação no Figma com foco em usabilidade (UX/UI)
 
-A arquitetura do projeto **Programando Futuros** foi estruturada para garantir escalabilidade, segurança, usabilidade e facilidade de manutenção. O sistema é dividido entre frontend, backend e banco de dados, com integração contínua via GitHub.
+Resultados Esperados
 
-### 📁 Estrutura de Pastas
+- Plataforma funcional hospedada online
+- Testes com pelo menos duas escolas e cinco voluntários
+- Realização de oficinas-piloto utilizando o sistema
+- Coleta de feedbacks e elaboração de relatório de impacto
+- Base inicial de conteúdos pedagógicos publicada
+- Aplicação de quizzes nas oficinas presenciais
 
+Arquitetura da Solução
+
+Estrutura de Pastas:
 ```
 programando-futuros/
-├── backend/                # API REST com Node.js + Express
-│   ├── controllers/        # Lógica dos endpoints
-│   ├── models/             # Modelos de dados (MongoDB ou Sequelize)
-│   ├── routes/             # Arquivos de rotas por recurso (oficinas, escolas, etc)
-│   ├── middlewares/        # Autenticação, validações e tratamento de erros
-│   ├── services/           # Regras de negócio
-│   ├── config/             # Configurações de ambiente e conexão com o banco
-│   └── server.js           # Arquivo principal do backend
-│
-├── frontend/               # Aplicação SPA em React
-│   ├── public/             # Arquivos públicos (index.html, favicon, etc)
+├── backend/
+│   ├── controllers/       Lógica das requisições
+│   ├── models/            Modelos de dados
+│   ├── routes/            Rotas da aplicação
+│   ├── middlewares/       Validações e autenticações
+│   ├── services/          Regras de negócio
+│   ├── config/            Arquivos de configuração
+│   └── server.js          Ponto de entrada do backend
+
+├── frontend/
+│   ├── public/            Arquivos estáticos
 │   ├── src/
-│   │   ├── assets/         # Imagens e ícones
-│   │   ├── components/     # Componentes reutilizáveis
-│   │   ├── pages/          # Páginas por domínio (Home, Login, Oficinas, etc)
-│   │   ├── services/       # Integração com API (Axios/Fetch)
-│   │   ├── routes/         # Configuração de rotas com React Router
-│   │   ├── styles/         # Estilização (CSS Modules ou Tailwind)
-│   │   └── App.jsx         # Componente principal
-│   └── package.json        # Dependências e scripts do frontend
-│
-├── docs/                   # Documentação, protótipos e relatórios
-├── .env                    # Variáveis de ambiente
-├── .gitignore              # Arquivos ignorados pelo Git
-├── README.md               # Documentação principal do projeto
-└── LICENSE                 # Licença de uso (se aplicável)
+│   │   ├── assets/        Imagens e ícones
+│   │   ├── components/    Componentes reutilizáveis
+│   │   ├── pages/         Páginas principais
+│   │   ├── services/      Consumo da API
+│   │   ├── routes/        Definição de rotas
+│   │   ├── styles/        Estilos globais
+│   │   └── App.jsx        Componente principal
+│   └── package.json       Dependências do frontend
+
+├── docs/                  Documentação do projeto
+├── .env                   Variáveis de ambiente
+├── .gitignore             Arquivos ignorados pelo Git
+├── README.md              Arquivo de apresentação do projeto
+└── LICENSE                Licença do projeto
 ```
 
-### 🔌 Diagrama Simplificado
-
+Diagrama Simplificado da Arquitetura:
 ```
-[ Frontend - React.js ]
-       |
-       v
-[ API REST - Node.js + Express ]
-       |
-       v
-[ Serviços / Controllers ]
-       |
-       v
-[ Banco de Dados - MongoDB ou Firebase ]
-
-+ Autenticação: JWT ou Firebase Auth
-+ Hospedagem: Vercel / GitHub Pages
-+ Versionamento: Git + GitHub
+Frontend (React)
+     ↓
+API REST (Node.js + Express)
+     ↓
+Serviços e Regras de Negócio
+     ↓
+Banco de Dados (MongoDB ou Firebase)
 ```
 
-### ✅ Boas Práticas Adotadas
-
-- Componentização e separação de responsabilidades (MVC)
-- Uso de variáveis de ambiente com dotenv
-- Validações de entrada no frontend e backend
+Boas Práticas Adotadas:
+- Organização por responsabilidades com padrão MVC
 - Autenticação segura com JWT
 - Criptografia de senhas com bcrypt
-- Estrutura modular para fácil manutenção e escalabilidade
+- Validação de dados no frontend e backend
 - Prevenção contra XSS, CSRF e SQL Injection
-- Deploy contínuo via GitHub + Vercel
-- Testes manuais com usuários e testes automatizados básicos
+- Deploy contínuo com GitHub Pages e Vercel
 
----
+Contribuições
 
-## 📈 Resultados Esperados
-
-- Sistema funcional e hospedado online.
-- Cadastro de ao menos duas escolas e cinco voluntários para testes.
-- Realização de oficinas-piloto com base no sistema.
-- Coleta de feedbacks e elaboração de relatório de impacto.
-
----
-
-## 🤝 Contribuições
-
-1. Faça um **fork** deste repositório.
-2. Crie uma nova branch para sua feature ou correção:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Faça commit das suas alterações:
-   ```bash
-   git commit -m "Descrição das alterações"
-   ```
-4. Envie as alterações para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Crie um **pull request** explicando suas alterações.
-
----
-
-## 📜 Licença
-
-Este projeto está licenciado sob os termos da [MIT License](LICENSE).
-
----
-
+1. Faça um fork do projeto
+2. Crie uma nova branch para sua feature:
+```
+git checkout -b minha-feature
 ```
 
-Se quiser, posso gerar o arquivo `.md` para você colar diretamente no seu projeto ou subir via pull request. Quer que eu faça isso?
+3. Faça commit das alterações:
+```
+git commit -m "Minha contribuição"
+```
+
+4. Envie a branch para seu fork:
+```
+git push origin minha-feature
+```
+
+5. Abra um pull request explicando suas alterações
+
+Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+---
+
+Se quiser, posso salvar esse conteúdo como um arquivo `README.md` pronto pra você subir pro repositório. Deseja isso?
